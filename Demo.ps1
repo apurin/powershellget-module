@@ -19,7 +19,7 @@ Try
 
 
     Write-Host 'Installing MyModule' -ForegroundColor Yellow
-    Install-Module -Name MyModule -Repository Demo_Nuget_Feed
+    Install-Module -Name MyModule -Repository Demo_Nuget_Feed -Scope CurrentUser
     Write-Host 'Use. Get-InstalledModule to see installed modules'
 
 
