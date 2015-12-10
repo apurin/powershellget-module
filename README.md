@@ -42,9 +42,8 @@ As you've probably noticed, we can pass anything as NuGetApiKey for folder Nuget
 This is best part of PowerShellGet:
 
     Install-Module MyModule -Repository Demo_Nuget_Feed -Scope CurrentUser
-    Import-Module MyModule
 
 From now we can use any cmdlet we’ve exported in MyModule.psm1.
-**Once you’ve installed module it stays on system permanently.** To use it you only need to call `Import-Module`.
+**Once you’ve installed module it stays on system permanently.**.
 
 Notice `-Scope` parameter of `Install-Module`, to install module for all users you'll need admin rights.
